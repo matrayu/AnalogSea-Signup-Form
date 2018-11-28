@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AnalogSea Sign up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+    <img class="logo" src="images\logo.png" alt="AnalogSea Logo">
+    <form class="signup-form" action="/signup" method="POST">
+        <fieldset>
+            <p>Sign up</p>
+            <label for="email">Email</label>
+            <input type="email" placeholder="foo@bar.com" name="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" placeholder="1234passw0rd" name="password" id="password" required>
+            <button class="btn" type="submit">Sign up</button>
+        </fieldset>
+
+        <p class="signup">Already have an account? <a href=/login>Log In</a></p>
+    </form>
+    
+</body>
+</html>
